@@ -1,4 +1,4 @@
-##Rudra - A Jarvis-like AI Assistant
+##Rudra - A Jarvis-like AI Assistant##
 Rudra is a voice-activated assistant built with Python, featuring speech-to-text functionality, natural language processing via the Groq API, and text-to-speech (TTS) using EdgeTTS. It listens for voice commands in Hindi (hi-IN), processes the input, and generates responses that are played back using TTS.
 
 *Features*
@@ -21,5 +21,5 @@ TTS Engine: EdgeTTS for converting text to audio.
 ##special thanks
 
 special thanks to:-
-https://www.youtube.com/@DevsDoCode
+https://www.youtube.com/@DevsDoCode || 
 https://www.youtube.com/@OEvortex
