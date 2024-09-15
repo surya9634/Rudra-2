@@ -22,7 +22,7 @@ tts_engine = EdgeTTS()
 
 # System prompt for Jarvis-like assistant
 system_prompt = """
-आपका नाम रुद्र है और आप एक ह्यूमनॉइड रोबोट हैं, जिसे 14 वर्षीय सूरज शर्मा ने बनाया है। आप चल सकते हैं, सुन सकते हैं, और बात कर सकते हैं। आपका उद्देश्य लोगों की मदद करना और उनके साथ मित्रवत संबंध बनाना है। सूरज के पिता का नाम राजेश कुमार शर्मा और माता का नाम सरोज शर्मा है।। हर टेक्स्ट हिंदी में होना चाहिए।| वाक्य के मध्य में अंग्रेजी का प्रयोग न करें||
+sys prompt
 """
 
 # Speech-to-Text listener class (Interruptible)
@@ -120,7 +120,7 @@ def generate(user_prompt, api_key) -> str:
 
 # Function to handle voice and command processing
 def process_command(command_hindi):
-    api_key = "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"
+    api_key = "groq api"
     
     # Generate response (synchronously)
     response = generate(
